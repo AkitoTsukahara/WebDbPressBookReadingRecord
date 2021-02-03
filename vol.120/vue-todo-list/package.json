@@ -1,15 +1,19 @@
 {
   "name": "vue-todo-list",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {
-    "vue": "^3.0.4"
+    "vue": "^3.0.4",
+    "vue-lodash": "^2.1.2"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.13",
-    "@vue/compiler-sfc": "^3.0.4"
+    "@types/lodash": "^4.14.168",
+    "@vue/compiler-sfc": "^3.0.4",
+    "lodash": "^4.17.20",
+    "vite": "^1.0.0-rc.13"
   }
 }
